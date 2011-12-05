@@ -1,0 +1,354 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Bank Site Done Right</title>
+    
+    <meta name="description" content="The &quot;idea&quot; bank site built with HTML5, CSS3 and jQuery.">
+    <meta name="author" content="T8 Webware">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <link rel="stylesheet" href="lib/css/style.css">
+    <link rel="stylesheet" href="lib/css/uniform.default.css">
+    <link rel="stylesheet" href="lib/css/jquery.ui.stars.min.css">
+    
+    <script src="lib/js/core/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body class="f8-editable-area">
+    <header>
+        <div class="wrapper clearfix">
+            <h1><a href="index.html">Bank Site Done Right</a></h1>
+            <nav>
+                <ul>
+                    <li>
+                    	<a href="#" class="drop">Personal</a>
+                        <div class="dropdown clearfix">
+                        	<ul>
+                                <li><h3>Banking</h3></li>
+                                <li><a href="checking.html">Checking</a></li>
+                                <li><a href="subpage.html">Savings, CDs &amp; Money Markets</a></li>
+                                <li><a href="subpage.html">Online Banking &amp; Bill Pay</a></li>
+                                <li><a href="subpage.html">Mobile Banking</a></li>
+                                <li><a href="subpage.html">Debit Card</a></li>
+                                <li><a href="subpage.html">Overdraft Protection</a></li>
+                        	</ul>
+                            
+                            <ul>
+                                <li><h3>Loans</h3></li>
+                                <li><a href="subpage.html">Mortgage</a></li>
+                                <li><a href="subpage.html">Loans &amp; Lines </a></li>
+                                <li><a href="subpage.html">Credit Cards</a></li>
+                            </ul>
+                            
+                            <ul>
+                            	<li><h3>Smart Extras</h3>
+                                <li><a href="subpage.html">e-Switch</a></li>
+                                <li><a href="subpage.html">Reorder Checks</a></li>
+                        	</ul>
+                        </div>
+                    </li>
+                    <li>
+                    	<a href="#" class="drop">Business</a>
+                        <div class="dropdown clearfix">
+                        	<ul>
+                                <li><h3>Banking</h3></li>
+                                <li><a href="subpage.html">Checking</a></li>
+                                <li><a href="subpage.html">Savings, CDs &amp; Money Markets</a></li>
+                                <li><a href="subpage.html">Loans &amp; Lines</a></li>
+                                <li><a href="subpage.html">SBA Lending</a></li>
+                                <li><a href="subpage.html">Credit Cards</a></li>
+                        	</ul>
+                            
+                            <ul>
+                                <li><h3>Services &amp; Tools</h3></li>
+                                <li><a href="subpage.html">Online Banking &amp; Bill Pay</a></li>
+                                <li><a href="subpage.html">Mobile Banking</a></li>
+                                <li><a href="subpage.html">Investments</a></li>
+                                <li><a href="subpage.html">Merchant Services</a></li>
+                                <li><a href="subpage.html">Express Deposit</a></li>
+                                <li><a href="subpage.html">Debit Card</a></li>
+                        	</ul>
+                            
+                            <ul>
+                            	<li><h3>Smart Extras</h3>
+                                <li><a href="subpage.html">Reorder Checks</a></li>
+                                <li><a href="subpage.html">Employee Perks</a></li>
+                        	</ul>
+                        </div>
+                    </li>
+                    <li>
+                    	<a href="#">Community</a>
+                        <div class="dropdown clearfix">
+                        	<ul>
+                            	<li><h3>Discover</h3>
+                                <li><a href="community.html">Community Giving</a></li>
+                                <li><a href="subpage.html">Events</a></li>
+                                <li><a href="subpage.html">Local Spotlight Merchants</a></li>
+                        	</ul>
+                            
+                            <ul>
+                            	<li><h3>Inspire</h3>
+                                <li><a href="subpage.html">Community Responsibility</a></li>
+                                <li><a href="subpage.html">Our History</a></li>
+                        	</ul>
+                        </div>
+                    </li>
+                    
+                    <li>
+                    	<a href="#">Contact</a>
+                        <div class="dropdown clearfix">
+                        	<ul>
+                            	<li><h3>In Touch</h3>
+                                <li><a href="subpage.html">Contact Us</a></li>
+                                <li><a href="subpage.html">Locations &amp; ATMs</a></li>
+                        	</ul>
+                            
+                            <ul>
+                            	<li><h3>Help</h3>
+                                <li><a href="subpage.html">FAQs</a></li>
+                                <li><a href="subpage.html">Lost or Stolen Card?</a></li>
+                                <li><a href="subpage.html">Online Fraud &amp; Identity Theft</a></li>
+                        	</ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search-site">
+                <form action="search.html">
+                    <div class="input-container" id="search-container">
+                        <input type="text" placeholder="Search and hit enter" results="5" name="search" id="search">
+                    </div>
+                </form>
+            </div>
+        </div><!-- .wrapper -->
+    </header>
+    
+    <div id="action-bar" class="wrapper clearfix">
+        <div class="olb-login olb-form clearfix">
+            <h2>Online Banking</h2>
+            <form action="" id="olb-login">
+                <div id="select-type">
+                    <select id="olb-select">
+                        <option value="">Select an Account...</option>
+                        <option value="personal">Personal Banking</option>
+                        <option value="business">Business Banking</option>
+                        <option value="gift">Gift Card Login</option>
+                    </select>
+                    <span>Select an Account...</span>
+                </div>
+                <div class="input-container" id="olb-container">
+                    <input type="text" placeholder="Enter Your Login ID" name="olb-login" id="olb-login">
+                </div>
+                <input type="submit" value="Login" id="olb-login-btn">
+            </form>
+        </div>
+        
+        <div class="olb-login olb-logged-in clearfix" style="display:none;">
+            <h2 class="welcome-back">Welcome back, Josh. <em>(<a href="#">Not Josh?</a>)</em></h2>
+            
+            <a href="#" class="consumer-message"><span class="icon-mail"></span>You have <strong>1</strong> new message.</a> 
+            <a href="#" class="consumer-message"><span class="icon-mail"></span><strong>3</strong> bill is due within 6 days.</a>
+            <a href="#" class="consumer-message"><span class="icon-mail"></span>Low Balance Alert!</a>
+        </div>
+        
+        
+        <div class="quick-links">
+            <ul>
+                <li class="open-account"><a href="subpage.html"><span></span>Open Account</a></li>
+                <li class="locations"><a href="subpage.html"><span></span>Locations</a></li>
+                <li class="mobile"><a href="subpage.html"><span></span>Mobile</a></li>
+                <li class="live-chat"><a href="subpage.html"><span></span>Live Chat</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    
+    <div id="featured">
+        <div id="featured-light">
+            <div id="main-featured-slider" class="wrapper slider_auto slider_autospeed_5000 slider_pause">
+                <div class="slide clearfix" id="slide1">
+                    <div class="left">
+                        <h2 class="editable" data-button-class="all">Introducing Grip.</h2>
+                        <h3 class="editable" data-button-class="all">The up-to-the-minute, all-in-one-place way to help you get a grip on your daily finances.</h3>
+                        <a href="subpage.html" class="btn">Learn More</a>
+                        <div class="see-in-action clearfix">
+                            <a href="subpage.html" title="See Grip in action">
+                            <img src="lib/img/grip-iphone-vid-thumb.png" width="116" height="76" alt="See Grip in action" class="vid-thumb">
+                            </a>
+                            <a href="subpage.html" class="vid-thumb-txt left">See it in action.</a>
+                        </div>
+                    </div>
+                    <img src="lib/img/grip-iphone.png" width="412" height="408" alt="Introducing Grip." class="main-img editable" data-button-class="all">
+                </div>
+                <div class="slide editable" data-button-class="all">
+                    <h2>Another Marketing Area</h2>
+                    <h3>with subheading</h3>
+                </div>
+            </div>
+            <a id="left-arrow" href="#">Previous</a>
+            <a id="right-arrow" href="#">Next</a>
+        </div>
+    </div>
+    
+    <section id="featured-products" class="wrapper clearfix">
+        <div class="block">
+            <h2>Interest Checking</h2>
+            <img src="lib/img/featured-checking.png" alt="Interest Checking" width="71" height="60">
+            <p class="editable" data-button-class="all">
+                The convenience of a checking account with the interest of a savings account. <a href="subpage.html">Learn More &rsaquo;</a>
+            </p>
+            <div class="rating clearfix">
+                <form action="">
+                    <div class="stars clearfix">
+                        <select name="selrate">
+                            <option value="1">Very poor</option>
+                            <option value="2">Not that bad</option>
+                            <option value="3">Average</option>
+                            <option value="4" selected="selected">Good</option>
+                            <option value="5">Perfect</option>
+                        </select>
+                    </div>
+                    <span class="left"><strong>4.7</strong> <a href="subpage.html" class="rating-link">(27 customer reviews)</a></span>
+                </form>
+            </div>
+        </div>
+        
+        <div class="block">
+            <h2>Every ATM is Your ATM</h2>
+            <img src="lib/img/featured-cards.png" alt="ATM Locations" width="71" height="60">
+            <p class="editable" data-button-class="all">
+                Forget about fees. Bank from anywhere nationwide with no ATM fees. <a href="subpage.html">Learn More &rsaquo;</a>
+            </p>
+            <div class="rating clearfix">
+                <form action="">
+                    <div class="stars clearfix">
+                        <select name="selrate">
+                            <option value="1">Very poor</option>
+                            <option value="2">Not that bad</option>
+                            <option value="3">Average</option>
+                            <option value="4" selected="selected">Good</option>
+                            <option value="5">Perfect</option>
+                        </select>
+                    </div>
+                    <span class="left"><strong>4.7</strong> <a href="subpage.html" class="rating-link">(27 customer reviews)</a></span>
+                </form>
+            </div>
+        </div>
+        
+        <div class="block">
+            <h2>High Yield CD</h2>
+            <img src="lib/img/featured-cds.png" alt="High Yield CD" width="71" height="60">
+            <p class="editable" data-button-class="all">
+                Maximize your earning potential with BANKsite's high-yield CDs. <a href="subpage.html">Learn More &rsaquo;</a>
+            </p>
+            <div class="rating clearfix">
+                <form action="">
+                    <div class="stars clearfix">
+                        <select name="selrate">
+                            <option value="1">Very poor</option>
+                            <option value="2">Not that bad</option>
+                            <option value="3">Average</option>
+                            <option value="4" selected="selected">Good</option>
+                            <option value="5">Perfect</option>
+                        </select>
+                    </div>
+                    <span class="left"><strong>4.7</strong> <a href="subpage.html" class="rating-link">(27 customer reviews)</a></span>
+                </form>
+            </div>
+        </div>
+    
+    </section>
+    
+    <footer class="wrapper clearfix">
+        <div class="block">
+            <h3>Products</h3>
+            <ul>
+                <li><a href="checking.html">Checking Accounts</a></li>
+                <li><a href="subpage.html">Savings Accounts</a></li>
+                <li><a href="subpage.html">CDs &amp; Investments</a></li>
+                <li><a href="subpage.html">Credit Cards</a></li>
+                <li><a href="subpage.html">Loans</a></li>
+            </ul>
+        </div>
+        
+        <div class="block">
+            <h3>Help</h3>
+            <ul>
+                <li><a href="subpage.html">FAQs</a></li>
+                <li><a href="subpage.html">Contact Us</a></li>
+                <li><a href="subpage.html">Find an ATM</a></li>
+                <li><a href="subpage.html">Lost or Stolen Card?</a></li>
+            </ul>
+        </div>
+        <div class="block">
+            <h3>Fine Print</h3>
+            <ul>
+                <li><a href="subpage.html">Disclosures</a></li>
+                <li><a href="subpage.html">Privacy Policy</a></li>
+                <li><a href="subpage.html">Security</a></li>
+            </ul>
+        </div>
+        <div class="block">
+            <h3>Sharing is Caring</h3>
+            <ul>
+                <li class="twitter"><a href="subpage.html">Twitter</a></li>
+                <li class="facebook"><a href="subpage.html">Facebook</a></li>
+                <li class="linkedin"><a href="subpage.html">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="block right">
+            <p>
+                &copy; 2011 BANKsite. All rights reserved.<br>
+                Member FDIC. Equal Housing Lender. <span class="ehl"></span>
+            </p>
+        </div>
+                
+    </footer>
+    
+    <ul id="f8-login" style="display:none;">
+    <form action="/login" id="login-form">
+    	<li>Username: <input type="text" id="username"></li>
+      	<li>Password: <input type="password" id="password"></li>
+      	<li><button id="login">Login</button></li>
+    </form>
+    </ul>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="lib/js/core/jquery-1.6.2.min.js"><\/script>')</script>
+    <script src="lib/js/core/jquery-ui-1.8.16.custom.min.js"></script>
+    <script src="lib/js/plugins/jquery.uniform.min.js"></script>
+    <script src="lib/js/plugins/jquery.slider.js"></script>
+    <script src="lib/js/plugins/jquery-impromptu.3.2.min.js"></script>
+    <script src="lib/js/plugins/jquery.ui.stars.min.js"></script>
+    <script defer src="lib/js/script.js"></script>
+    
+    
+    <!-- F8 Stuff
+    <script src="lib/f8/scripts/lib/jquery-ui.min.js"></script>
+	<script src="lib/f8/scripts/lib/underscore.js"></script>
+	<script src="lib/f8/scripts/lib/backbone.js"></script>
+	<script src="lib/f8/scripts/lib/rangy-core.js"></script>
+	<script src="lib/f8/scripts/etch.js"></script>
+	<script src="lib/f8/scripts/image.js"></script>
+	<script src="lib/f8/scripts/script.js"></script>
+    <link rel="stylesheet" href="lib/f8/styles/jquery-ui-1.7.3.custom.css" />
+    <link rel="stylesheet" href="lib/f8/styles/jquery.jcrop.css" />
+    <link rel="stylesheet" href="lib/f8/styles/etch.css" />
+    <link rel="stylesheet" href="lib/f8/styles/image.css" />
+    <!-- end F8 Stuff -->
+    
+    
+
+    <!--[if lt IE 7 ]>
+        <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+        <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+    <![endif]-->
+</body>
+</html>

@@ -1,0 +1,335 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Bank Site Done Right : SBA Lending</title>
+    
+    <meta name="description" content="The &quot;idea&quot; bank site built with HTML5, CSS3 and jQuery.">
+    <meta name="author" content="T8 Webware">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <link rel="stylesheet" href="lib/css/style.css">
+    <link rel="stylesheet" href="lib/css/uniform.default.css">
+    <link rel="stylesheet" href="lib/css/jquery.ui.stars.min.css">
+    
+    <script src="lib/js/core/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body class="subpage f8-editable-area">
+    <header>
+        <div class="wrapper clearfix">
+            <h1><a href="index.html">Bank Site Done Right</a></h1>
+            <nav>
+                <ul>
+                    <li>
+                    	<a href="checking.html" class="drop">Personal</a>
+                        <div class="dropdown clearfix">
+                        	<ul>
+                                <li><h3>Banking</h3></li>
+                                <li><a href="checking.html">Checking</a></li>
+                                <li><a href="subpage.html">Savings, CDs &amp; Money Markets</a></li>
+                                <li><a href="subpage.html">Online Banking &amp; Bill Pay</a></li>
+                                <li><a href="subpage.html">Mobile Banking</a></li>
+                                <li><a href="subpage.html">Debit Card</a></li>
+                                <li><a href="subpage.html">Overdraft Protection</a></li>
+                        	</ul>
+                            
+                            <ul>
+                                <li><h3>Loans</h3></li>
+                                <li><a href="subpage.html">Mortgage</a></li>
+                                <li><a href="subpage.html">Loans &amp; Lines </a></li>
+                                <li><a href="subpage.html">Credit Cards</a></li>
+                            </ul>
+                            
+                            <ul>
+                            	<li><h3>Smart Extras</h3>
+                                <li><a href="subpage.html">e-Switch</a></li>
+                                <li><a href="subpage.html">Reorder Checks</a></li>
+                        	</ul>
+                        </div>
+                    </li>
+                    <li>
+                    	<a href="#" class="drop">Business</a>
+                        <div class="dropdown clearfix">
+                        	<ul>
+                                <li><h3>Banking</h3></li>
+                                <li><a href="subpage.html">Checking</a></li>
+                                <li><a href="subpage.html">Savings, CDs &amp; Money Markets</a></li>
+                                <li><a href="subpage.html">Loans &amp; Lines</a></li>
+                                <li><a href="subpage.html">SBA Lending</a></li>
+                                <li><a href="subpage.html">Credit Cards</a></li>
+                        	</ul>
+                            
+                            <ul>
+                                <li><h3>Services &amp; Tools</h3></li>
+                                <li><a href="subpage.html">Online Banking &amp; Bill Pay</a></li>
+                                <li><a href="subpage.html">Mobile Banking</a></li>
+                                <li><a href="subpage.html">Investments</a></li>
+                                <li><a href="subpage.html">Merchant Services</a></li>
+                                <li><a href="subpage.html">Express Deposit</a></li>
+                                <li><a href="subpage.html">Debit Card</a></li>
+                        	</ul>
+                            
+                            <ul>
+                            	<li><h3>Smart Extras</h3>
+                                <li><a href="subpage.html">Reorder Checks</a></li>
+                                <li><a href="subpage.html">Employee Perks</a></li>
+                        	</ul>
+                        </div>
+                    </li>
+                    <li>
+                    	<a href="#">Community</a>
+                        <div class="dropdown clearfix">
+                        	<ul>
+                            	<li><h3>Discover</h3>
+                                <li><a href="subpage.html">Community Giving</a></li>
+                                <li><a href="subpage.html">Events</a></li>
+                                <li><a href="subpage.html">Local Spotlight Merchants</a></li>
+                        	</ul>
+                            
+                            <ul>
+                            	<li><h3>Inspire</h3>
+                                <li><a href="subpage.html">Community Responsibility</a></li>
+                                <li><a href="subpage.html">Our History</a></li>
+                        	</ul>
+                        </div>
+                    </li>
+                    
+                    <li>
+                    	<a href="#">Contact</a>
+                        <div class="dropdown clearfix">
+                        	<ul>
+                            	<li><h3>In Touch</h3>
+                                <li><a href="subpage.html">Contact Us</a></li>
+                                <li><a href="subpage.html">Locations &amp; ATMs</a></li>
+                        	</ul>
+                            
+                            <ul>
+                            	<li><h3>Help</h3>
+                                <li><a href="subpage.html">FAQs</a></li>
+                                <li><a href="subpage.html">Lost or Stolen Card?</a></li>
+                                <li><a href="subpage.html">Online Fraud &amp; Identity Theft</a></li>
+                        	</ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search-site">
+                <form action="">
+                    <div class="input-container" id="search-container">
+                        <input type="text" placeholder="Search and hit enter" results="5" name="search" id="search">
+                    </div>
+                </form>
+            </div>
+        </div><!-- .wrapper -->
+    </header>
+    
+    <div id="action-bar" class="wrapper clearfix">
+        <div class="olb-replace">
+            <div class="olb-drop">Online Banking</div>
+            
+            <div class="quick-links">
+                <ul>
+                    <li class="open-account"><a href="#"><span></span></a></li>
+                    <li class="locations"><a href="#"><span></span></a></li>
+                    <li class="mobile"><a href="#"><span></span></a></li>
+                    <li class="live-chat"><a href="#"><span></span></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="olb-hidden">
+        	<div class="olb-login clearfix">
+                <h2>Online Banking</h2>
+                <form action="">
+                    <div id="select-type">
+                        <select id="olb-select">
+                            <option value="">Select an Account...</option>
+                            <option value="personal">Personal Banking</option>
+                            <option value="business">Business Banking</option>
+                            <option value="gift">Gift Card Login</option>
+                        </select>
+                        <span>Select an Account...</span>
+                    </div>
+                    <div class="input-container" id="olb-container">
+                        <input type="text" placeholder="Enter Your Login ID" name="olb-login" id="olb-login">
+                    </div>
+                    <input type="submit" value="Login" id="olb-login-btn">
+                </form>
+            </div>
+            
+            <div class="quick-links">
+                <ul>
+                    <li class="open-account"><a href="#"><span></span>Open Account</a></li>
+                    <li class="locations"><a href="#"><span></span>Locations</a></li>
+                    <li class="mobile"><a href="#"><span></span>Mobile</a></li>
+                    <li class="live-chat"><a href="#"><span></span>Live Chat</a></li>
+                </ul>
+            </div>
+     	</div>
+        
+    </div>
+    
+    
+    <div id="main" class="clearfix">
+    	
+        <hgroup>
+        	<a href="#"><strong>Home</strong></a> &raquo; Community
+            <h2>In the Community</h2>
+        </hgroup>
+        
+    	<section class="content">
+        	
+            <article>
+                <h3>Mini-Article Title</h3>
+                <p>
+                <img src="lib/img/uploads/girl-with-card.jpg" width="181" height="181" alt="Article Title or Image Name" align="left" />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet nunc risus, ut consequat nisi. Suspendisse eget nibh quis mauris varius volutpat non fermentum velit. Aliquam vel massa ipsum. Donec eu lectus sed nibh rhoncus viverra pulvinar sed mi. Aliquam justo turpis, lacinia id aliquam in, volutpat posuere lectus. Pellentesque eu sapien nec magna placerat cursus. Integer pretium tempor lorem nec molestie. Fusce pretium fringilla eros, in volutpat nunc vestibulum condimentum. Nulla gravida ultrices ornare. Sed fermentum lectus et dui pharetra at pulvinar dolor condimentum. Vivamus varius aliquet ligula, a consequat nisi imperdiet et. Nullam sagittis lectus ac urna facilisis dapibus. Maecenas in varius nulla.
+                </p>
+                <blockquote>
+                Phasellus enim nulla, dictum sit amet gravida id, porta ut nisi. Nam non est urna, vel vehicula sem. Nulla tempor blandit consectetur. Maecenas sed nisi tortor. Nunc lobortis sagittis magna non venenatis. Nam in neque mi. Sed ultricies enim nec velit consectetur facilisis. Phasellus vitae congue lectus. In hac habitasse platea dictumst.
+                </blockquote>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Cras molestie mollis odio, sit amet vehicula quam lobortis a.</li>
+                    <li>Etiam eu orci feugiat magna cursus commodo in sit amet est.</li>
+                    <li>Vestibulum consequat diam sed magna pharetra pretium.</li>
+                    <li>Donec rutrum quam quis dolor fermentum at suscipit erat suscipit.</li>
+                </ul>
+                <p>
+                Quisque ultricies dapibus tellus eu posuere. Praesent nisi odio, bibendum sit amet posuere nec, fringilla ac turpis. Donec in urna arcu. Praesent nibh erat, lacinia eget dignissim sit amet, fermentum id eros. Quisque eu massa nibh, non vestibulum tortor. Phasellus pretium dolor tellus, lobortis congue mauris. Maecenas fermentum eros quis nulla dapibus id sagittis libero malesuada. Phasellus convallis tristique tortor, eu hendrerit lectus sodales commodo. Mauris mollis tempus turpis, in consectetur orci scelerisque luctus. Proin quis nibh nunc, vel consequat tellus. Pellentesque ac odio orci.
+                </p>
+                
+                <hr />
+            </article>
+            
+            <article>
+                <h3>Mini-Article Title</h3>
+                <p>
+                <img src="lib/img/uploads/girl-with-card.jpg" width="181" height="181" alt="Article Title or Image Name" align="right" />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet nunc risus, ut consequat nisi. Suspendisse eget nibh quis mauris varius volutpat non fermentum velit. Aliquam vel massa ipsum. Donec eu lectus sed nibh rhoncus viverra pulvinar sed mi. Aliquam justo turpis, lacinia id aliquam in, volutpat posuere lectus. Pellentesque eu sapien nec magna placerat cursus. Integer pretium tempor lorem nec molestie. Fusce pretium fringilla eros, in volutpat nunc vestibulum condimentum. Nulla gravida ultrices ornare. Sed fermentum lectus et dui pharetra at pulvinar dolor condimentum. Vivamus varius aliquet ligula, a consequat nisi imperdiet et. Nullam sagittis lectus ac urna facilisis dapibus. Maecenas in varius nulla.
+                </p>
+                <p>
+                Phasellus enim nulla, dictum sit amet gravida id, porta ut nisi. Nam non est urna, vel vehicula sem. Nulla tempor blandit consectetur. Maecenas sed nisi tortor. Nunc lobortis sagittis magna non venenatis. Nam in neque mi. Sed ultricies enim nec velit consectetur facilisis. Phasellus vitae congue lectus. In hac habitasse platea dictumst.
+                </p>
+                <p>
+                Quisque ultricies dapibus tellus eu posuere. Praesent nisi odio, bibendum sit amet posuere nec, fringilla ac turpis. Donec in urna arcu. Praesent nibh erat, lacinia eget dignissim sit amet, fermentum id eros. Quisque eu massa nibh, non vestibulum tortor. Phasellus pretium dolor tellus, lobortis congue mauris. Maecenas fermentum eros quis nulla dapibus id sagittis libero malesuada. Phasellus convallis tristique tortor, eu hendrerit lectus sodales commodo. Mauris mollis tempus turpis, in consectetur orci scelerisque luctus. Proin quis nibh nunc, vel consequat tellus. Pellentesque ac odio orci.
+                </p>
+                
+                <hr />
+            </article>
+                    
+           
+        </section>
+        
+        <aside>
+        	<h3>Quick &amp; Easy Signup</h3>
+            <p>Apply for a new account in less than five minutes.</p>
+            <a href="#" class="btn">Apply Now</a>
+            
+            <hr />
+            
+            <h3>Tips to Live Better</h3>
+            <p>Receive weekly newsletters from BANKsite with tips on how to save money and live better.</p>
+            <form action="" method="post">
+            	<input type="email" id="newsletter-signup" placeholder="Enter your email address" />
+                <input type="submit" id="newsletter-signup-submit" value="Subscribe" />
+            </form>
+            
+            <hr />
+            
+            <h3>No annual fee visa® credit cards</h3>
+            <p><img src="lib/img/card-icon.png" width="64" height="55" style="float:left; margin-right:5px;">All of our personal Credit Cards come with a variety of perks. <a href="#">Learn more</a> or <a href="#">apply now</a>.</p>
+            
+            <hr />
+            
+        </aside>
+    </div>
+    
+    
+    
+    <footer class="wrapper clearfix">
+        <div class="block">
+            <h3>Products</h3>
+            <ul>
+                <li><a href="#">Checking Accounts</a></li>
+                <li><a href="#">Savings Accounts</a></li>
+                <li><a href="#">CDs &amp; Investments</a></li>
+                <li><a href="#">Credit Cards</a></li>
+                <li><a href="#">Loans</a></li>
+            </ul>
+        </div>
+        
+        <div class="block">
+            <h3>Help</h3>
+            <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Find an ATM</a></li>
+                <li><a href="#">Lost or Stolen Card?</a></li>
+            </ul>
+        </div>
+        <div class="block">
+            <h3>Fine Print</h3>
+            <ul>
+                <li><a href="#">Disclosures</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+        </div>
+        <div class="block">
+            <h3>Sharing is Caring</h3>
+            <ul>
+                <li class="twitter"><a href="#">Twitter</a></li>
+                <li class="facebook"><a href="#">Facebook</a></li>
+                <li class="linkedin"><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="block right">
+            <p>
+                &copy; 2011 BANKsite. All rights reserved.<br>
+                Member FDIC. Equal Housing Lender. <span class="ehl"></span>
+            </p>
+        </div>
+                
+    </footer>
+    
+   
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="lib/js/core/jquery-1.6.2.min.js"><\/script>')</script>
+    <script src="lib/js/core/jquery-ui-1.8.16.custom.min.js"></script>
+    <script src="lib/js/plugins/jquery.uniform.min.js"></script>
+    <script src="lib/js/plugins/jquery.slider.js"></script>
+    <script src="lib/js/plugins/jquery-impromptu.3.2.min.js"></script>
+    <script src="lib/js/plugins/jquery.ui.stars.min.js"></script>
+    <script src="lib/js/script.js"></script>
+    
+    
+    <!-- F8 Stuff 
+    <script src="lib/f8/scripts/lib/jquery-ui.min.js"></script>
+	<script src="lib/f8/scripts/lib/underscore.js"></script>
+	<script src="lib/f8/scripts/lib/backbone.js"></script>
+	<script src="lib/f8/scripts/lib/rangy-core.js"></script>
+	<script src="lib/f8/scripts/etch.js"></script>
+	<script src="lib/f8/scripts/image.js"></script>
+	<script src="lib/f8/scripts/script.js"></script>
+    <link rel="stylesheet" href="lib/f8/styles/jquery-ui-1.7.3.custom.css" />
+    <link rel="stylesheet" href="lib/f8/styles/jquery.jcrop.css" />
+    <link rel="stylesheet" href="lib/f8/styles/etch.css" />
+    <link rel="stylesheet" href="lib/f8/styles/image.css" />
+    <!-- end F8 Stuff -->
+    
+    
+
+    <!--[if lt IE 7 ]>
+        <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+        <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+    <![endif]-->
+</body>
+</html>
